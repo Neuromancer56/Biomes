@@ -1,0 +1,16 @@
+minetest.register_biome({
+    name = "japanese_forest",
+    node_top = "japaneseforest:japanese_dirt_with_grass",
+    depth_top = 1,
+    node_filler = "default:dirt",
+    depth_filler = 4,
+		node_riverbed = "default:sand",
+		depth_riverbed = 3,
+		node_dungeon = "default:cobble",
+		node_dungeon_alt = "default:mossycobble",
+		node_dungeon_stair = "stairs:stair_cobble",
+    y_max = 31000,
+    y_min = 5,
+    heat_point = 80,
+    humidity_point = 85,
+})
