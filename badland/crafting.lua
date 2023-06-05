@@ -9,7 +9,8 @@ minetest.register_craft({
 minetest.register_craft({
 	output = "badland:bowl 2",
 	recipe = {
-		{"group:wood"},
+		{"group:wood", "group:wood", "group:wood"},
+		{"", "group:wood", ""},
 	}
 })
 
